@@ -51,7 +51,7 @@ Valdemir do Nascimento Silva
 
 [css](https://jigsaw.w3.org/css-validator/)
 
-:heavy_check_mark: Seguir-me nas redes sociais:
+:heavy_check_mark: Siga-me nas redes sociais:
 <p align="left">
 <a href="https://www.youtube.com/@walkemyr" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/youtube.png" alt="roboticapraticabr" height="48" width="48" /></a>
 <a href="https://www.linkedin.com/in/walkemyr/" target="blank"><img align="center" src="https://github.com/professorjosedeassis/joseassis/blob/main/img/linkedin.png" alt="professorjosedeassis" height="48" width="48" /></a>
@@ -61,11 +61,6 @@ Valdemir do Nascimento Silva
 </p>
 
 ### Você também pode me pagar um café! ☕
-
-### Chave PIX:
-` valdemirnascimentoo@hotmail.com `
-
-### :smiley: Muito obrigado pelo apoio!
 
 ### Chave PIX:
 ` valdemirnascimentoo@hotmail.com `
