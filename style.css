@@ -2,30 +2,74 @@
 Folha de estilo do site one Page HTML5 e CSS3 @author Valdemir Nascimento 
 */
 
+/* Importação (google fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+}
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+    background-color: chartreuse;
+}
+
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 576px) {
-    body{
+    body {
         background-color: aqua;
     }
+
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
 }
+
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 768px) {
-    body{
-        background-color:yellow;
+    body {
+        background-color: yellow;
+    }
+
+    /* Layout */
+    .Container {
+        max-width: 720px;
     }
 }
+
 /* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 992px) {
-    body{
+    body {
         background-color: rgb(255, 136, 0);
     }
+
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
 }
+
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width: 1200px) {
-    body{
+    body {
         background-color: rgb(255, 0, 0);
+    }
+
+    /* Layout */
+    .Container {
+        max-width: 1140px;
     }
 }
