@@ -16,6 +16,7 @@ Aprenda HTML5, CSS3 e técnicas de SEO de forma simples, prática e objetiva des
 Este repositório também hospeda o projeto final.
 ### Autor
 Valdemir do Nascimento Silva
+### Site Final [>>> Click Aqui!](https://walkemyr.github.io/html5css3/)
 
 ### Apresentação do tutorial de onde fiz meu site, Professor Jose de Assis
 [![HTML5 e CSS3 - One Page Site](https://img.youtube.com/vi/bS720dGvAn8/0.jpg)](https://youtu.be/bS720dGvAn8 "Apresentação do projeto")
