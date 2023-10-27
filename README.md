@@ -17,6 +17,11 @@ Este repositório também hospeda o projeto final.
 ### Autor
 Valdemir do Nascimento Silva
 
+:heavy_check_mark: Site Final:
+<p align="left">
+<a href="https://walkemyr.github.io/html5css3" target="blank"><img align="center" src="https://github.com/Walkemyr/html5css3/blob/main/img/surgimento-internet.png" alt="iconeinternet" height="48" width="48" /></a>
+</p>
+
 ### Apresentação do tutorial de onde fiz meu site, Professor Jose de Assis
 [![HTML5 e CSS3 - One Page Site](https://img.youtube.com/vi/bS720dGvAn8/0.jpg)](https://youtu.be/bS720dGvAn8 "Apresentação do projeto")
 
