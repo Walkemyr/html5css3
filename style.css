@@ -160,7 +160,7 @@ nav ul li a {
 /* Destaque */
 main {
     height: 75vh;
-    background: url(img/banner.jpg);
+    background: url(img/background3.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -182,7 +182,7 @@ main h2 {
 /* Sobre */
 #sobre {
     padding: 50px 0px;
-    background: url(img/background.png);
+    background: url(img/background4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -262,6 +262,27 @@ main h2 {
 }
 
 #conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+/* Aprendizado */
+#aprendizado {
+    padding: 50px 0px;
+}
+
+#aprendizado h2 {
     margin-bottom: 25px;
     text-align: center;
 }
