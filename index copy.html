@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 e CSS3 - One page site</title>
+    <meta name="description" content="Aprenda HTML5, CSS3 e técnicas de SEO de forma simples,
+     prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site One Page moderno e responsivo.">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header id="inicio">
+        <div class="Container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteudo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Destaque -->
+    <main>
+        <div class="Container">
+            <h1>HTML5 e CSS3</h1>
+            <h2>Você faz. Você vê. Você aprende.</h2>
+            <a href="https://youtube.com/playlist?list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&si=idRT_KhwXpRDCUoq"
+                target="_blank" class="Botao">Saiba +</a>
+        </div>
+    </main>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <div class="Container Flex2">
+            <div id="destaqueSobre">
+                <img src="img/html5css3.jpg" alt="html5css3">
+            </div>
+            <div id="textoSobre">
+                <h2>Aprender na Prática</h2>
+                <p>
+                    Aprenda HTML5, CSS3 e técnicas de SEO de forma simples,
+                    prática e objetiva desenvolvendo passo a passo do zero
+                    até a hospedagem um site One Page moderno e responsivo.
+                </p>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/html5.png" alt="html5">
+                    <p>HTML5</p>
+                </div>
+
+                <div class="TopicosSobre Flex2">
+                    <img src="img/css3.png" alt="css3">
+                    <p>CSS3</p>
+                </div>
+
+                <div class="TopicosSobre Flex2">
+                    <img src="img/seo.png" alt="seo">
+                    <p>SEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- One Page -->
+    <section id="onepage">
+        <div class="Container Flex3">
+            <div id="textoSite">
+                <h2>One Page Site</h2>
+                <p>
+                    Ideal para negócios de pequeno ou médio porte o site One Page é um site onde você inclui todas as
+                    informações que o visitante precisa de forma objetiva e criativa em uma única página.
+                </p>
+            </div>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bS720dGvAn8?si=ExHv4OhFmMer4ZUL"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- WireFrame -->
+    <section id="wireframe">
+        <div class="Container Flex2">
+            <div id="textoWire">
+                <h2>WireFrame</h2>
+                <p>Wireframe é uma representação visual da estrutura básica de uma página. Ele deve ser feito da maneira
+                    mais simples possível, mostrando apenas o essencial, como uma espécie de rascunho, sem cores ou
+                    imagens. Clique no botão <span>ou escaneie o QR Code </span> para obter o wireframe desta página.
+                </p>
+                <a href="wireframe.pdf" target="_blank" class="Botao">PDF</a>
+            </div>
+            <div id="qrcode">
+                <img src="img/qrcode.png" alt="qrcode">
+            </div>
+        </div>
+    </section>
+
+    <!-- Conteudo -->
+    <section id="conteudo">
+        <div class="Container">
+            <h2>Conteúdo</h2>
+            <div class="Cards Flex4">
+
+                <div class="Card">
+                    <img src="img/estruturahtml.png" alt="Estrutura html5">
+                    <h3>HTML5</h3>
+                    <p>
+                        O html é usado para exibir conteúdo na WEB e a estrutura do documento é dividida em partes
+                        conforme indicado neste cartão.
+                    </p>
+                    <a href="https://youtu.be/EUpLb_A8cTI" target="_blank" class="Botao">Saiba +</a>
+                </div>
+
+                <div class="Card">
+                    <img src="img/boxmodel.png" alt="Box model CSS">
+                    <h3>BOX MODEL CSS</h3>
+                    <p>
+                        O box model relaciona as propriedades descritas neste cartão para compor a dimensão do elemento.
+                    </p>
+                    <a href="https://youtu.be/dkbs-8ZRzZU" target="_blank" class="Botao">Saiba +</a>
+                </div>
+
+                <div class="Card">
+                    <img src="img/breakpoints.png" alt="Estrutura html5">
+                    <h3>BREAKPOINTS</h3>
+                    <p>
+                        Partindo sempre do smartphone em modo portrait, usamos como referência os valores descritos
+                        neste cartão.
+                    </p>
+                    <a href="https://youtu.be/BO-VzBNyEOs" target="_blank" class="Botao">Saiba +</a>
+                </div>
+
+            </div>
+            <div id="todos">
+                <a href="https://www.youtube.com/playlist?list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk"
+                    target="_blank">Conheça todos >></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodape -->
+    <address>
+        <div class="Container Flex6">
+
+            <div id="contato">
+                <a href="https://api.whatsapp.com/send?phone=5581992117886" target="_blank"><img src="img/whatsapp.png"
+                        alt="whatsapp" title="Abrir no Whatsapp">
+                    <p>(81)99211-7886</p>
+                </a>
+                <img src="img/fone.png" alt="fone">
+                <p>(81)99211-7886</p>
+            </div>
+
+            <div id="endereco">
+                <a href="https://maps.app.goo.gl/1BrwMGepAGNtgihq5"><img src="img/mapa.png" alt="Mapa"
+                        id="iconeMapa"></a>
+                <img src="img/local.png" alt="Local" id="iconeLocal">
+                <p>Praça da Conceição, 75</p>
+                <p>Centro</p>
+                <p>Belo Jardim - PE</p>
+                <a href="mailto:valdemirnascimentoo@hotmail.com?subject=HTML5CSS3">
+                    <img src="img/email.png" alt="email" title="Enviar E-Mail">
+                    <p>seuemail@email.com</p>
+                </a>
+                <p id="dados">&#128064; Endereço e Dados de Contato Ficticios</p>
+            </div>
+
+            <div id="googleMaps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.671760788729!2d-36.42622822423424!3d-8.33537578394262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a9c63b10036919%3A0xdcdac97329f5cc94!2sPra%C3%A7a%20da%20Concei%C3%A7%C3%A3o%2C%2075%20-%20Centro%2C%20Belo%20Jardim%20-%20PE%2C%2055150-200!5e0!3m2!1spt-BR!2sbr!4v1698406265079!5m2!1spt-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </address>
+    <footer>
+        <div class="Container Flex5">
+            <div id="copyright">
+                <p>&#169; Valdemir Nascimento</p>
+            </div>
+            <div id="social">
+                <a href="https://www.youtube.com/@walkemyr" target="_blank"><img src="img/youtube.png"
+                        alt="youtube"></a>
+                <a href="https://www.linkedin.com/in/walkemyr" target="_blank"><img src="img/linkedin.png"
+                        alt="linkedin"></a>
+                <a href="https://www.facebook.com/Walkemyr" target="_blank"><img src="img/facebook.png"
+                        alt="facebook"></a>
+                <a href="https://www.instagram.com/valdemirxnascimento" target="_blank"><img src="img/instagram.png"
+                        alt="instagram"></a>
+                <a href="https://twitter.com/walkemyr" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+</body>
+
+</html>
