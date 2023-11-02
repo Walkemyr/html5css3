@@ -10,8 +10,8 @@
     </a>
 </p>
 
-# HTML5 e CSS3 - One page site
-Aprenda HTML5, CSS3 e técnicas de SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.
+# O que é a Internet, HTML5 e CSS3 - One page site
+Aprenda sobre a origem da internet, HTML5, CSS3 e técnicas de SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem de um site One Page moderno e responsivo.
 
 Este repositório também hospeda o projeto final.
 ### Autor
